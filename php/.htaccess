@@ -1,0 +1,2 @@
+AuthName "php"
+AuthUserFile "/home/towns536/.htpasswds/public_html/wp-content/plugins/googlemaploc/php/passwd"

@@ -1,0 +1,88 @@
+[05-Oct-2013 13:13:29 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'massi752_locations.massi752_locations' doesn't exist' in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php:98
+Stack trace:
+#0 /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php(98): PDOStatement->execute()
+#1 /home/massi752/public_html/locations/php/lib/Database/Query.php(530): DataTables\Database\DriverMysqlQuery->_exec()
+#2 /home/massi752/public_html/locations/php/lib/Database/Query.php(194): DataTables\Database\Query->_select()
+#3 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(446): DataTables\Database\Query->exec()
+#4 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(303): DataTables\Editor->_get(NULL, Array)
+#5 /home/massi752/public_html/locations/php/locations.php(32): DataTables\Editor->process(Array)
+#6 {main}
+  thrown in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php on line 98
+[05-Oct-2013 13:13:51 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'massi752_locations.massi752_locations' doesn't exist' in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php:98
+Stack trace:
+#0 /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php(98): PDOStatement->execute()
+#1 /home/massi752/public_html/locations/php/lib/Database/Query.php(530): DataTables\Database\DriverMysqlQuery->_exec()
+#2 /home/massi752/public_html/locations/php/lib/Database/Query.php(194): DataTables\Database\Query->_select()
+#3 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(446): DataTables\Database\Query->exec()
+#4 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(303): DataTables\Editor->_get(NULL, Array)
+#5 /home/massi752/public_html/locations/php/locations.php(32): DataTables\Editor->process(Array)
+#6 {main}
+  thrown in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php on line 98
+[05-Oct-2013 13:19:29 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'massi752_locations.massi752_loca' doesn't exist' in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php:98
+Stack trace:
+#0 /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php(98): PDOStatement->execute()
+#1 /home/massi752/public_html/locations/php/lib/Database/Query.php(530): DataTables\Database\DriverMysqlQuery->_exec()
+#2 /home/massi752/public_html/locations/php/lib/Database/Query.php(194): DataTables\Database\Query->_select()
+#3 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(446): DataTables\Database\Query->exec()
+#4 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(303): DataTables\Editor->_get(NULL, Array)
+#5 /home/massi752/public_html/locations/php/locations.php(32): DataTables\Editor->process(Array)
+#6 {main}
+  thrown in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php on line 98
+[05-Oct-2013 13:19:36 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'massi752_locations.massi752_loca' doesn't exist' in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php:98
+Stack trace:
+#0 /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php(98): PDOStatement->execute()
+#1 /home/massi752/public_html/locations/php/lib/Database/Query.php(530): DataTables\Database\DriverMysqlQuery->_exec()
+#2 /home/massi752/public_html/locations/php/lib/Database/Query.php(194): DataTables\Database\Query->_select()
+#3 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(446): DataTables\Database\Query->exec()
+#4 /home/massi752/public_html/locations/php/lib/Editor/Editor.php(303): DataTables\Editor->_get(NULL, Array)
+#5 /home/massi752/public_html/locations/php/locations.php(32): DataTables\Editor->process(Array)
+#6 {main}
+  thrown in /home/massi752/public_html/locations/php/lib/Database/Driver/Mysql/Query.php on line 98
+[06-Oct-2013 22:28:02 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:28:03 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:28:03 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:28:03 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:29:50 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:29:50 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:29:50 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:29:50 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:30:11 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:30:11 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:30:11 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:30:11 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:30:24 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:30:24 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:30:24 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:30:24 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:30:34 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:30:34 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:30:34 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:30:34 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:30:38 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:30:38 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:30:38 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:30:38 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:30:43 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:30:43 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:30:43 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:30:43 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[06-Oct-2013 22:31:35 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (HY000/2005): Unknown MySQL server host 'localhost:3306' (1) in /home/massi752/public_html/locations/php/getLocations.php on line 7
+[06-Oct-2013 22:31:35 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 14
+[06-Oct-2013 22:31:35 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/locations/php/getLocations.php on line 17
+[06-Oct-2013 22:31:35 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/locations/php/getLocations.php on line 23
+[15-Oct-2013 23:14:25 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 7
+[15-Oct-2013 23:14:25 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 14
+[15-Oct-2013 23:14:25 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 17
+[15-Oct-2013 23:14:25 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 23
+[15-Oct-2013 23:14:33 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 7
+[15-Oct-2013 23:14:33 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 14
+[15-Oct-2013 23:14:33 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 17
+[15-Oct-2013 23:14:33 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 23
+[15-Oct-2013 23:15:33 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 7
+[15-Oct-2013 23:15:33 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 14
+[15-Oct-2013 23:15:33 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 17
+[15-Oct-2013 23:15:33 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 23
+[15-Oct-2013 23:16:38 America/Toronto] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 7
+[15-Oct-2013 23:16:38 America/Toronto] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 14
+[15-Oct-2013 23:16:38 America/Toronto] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 17
+[15-Oct-2013 23:16:38 America/Toronto] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/massi752/public_html/tsb/wp-content/plugins/googlemaploc/php/getLocations.php on line 23
